@@ -19,7 +19,7 @@ import static ru.netology.domain.DataGenerator.getRandomPassword;
 public class ServiceTest {
 
     @BeforeEach
-    void setUp() {
+    void setUpAll() {
         open("http://localhost:9999");
     }
 
